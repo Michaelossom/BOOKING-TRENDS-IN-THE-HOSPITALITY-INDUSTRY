@@ -131,7 +131,7 @@ if submitted:
 
     # 6. Display Results
     st.divider()
-    st.subheader("📊 Prediction Results")
+    st.subheader("📊 Prediction Results.")
     
     col_res1, col_res2 = st.columns([1, 2])
     

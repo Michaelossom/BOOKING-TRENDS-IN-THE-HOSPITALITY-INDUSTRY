@@ -38,7 +38,7 @@ if model is None:
 
 # --- INPUT FORM ---
 with st.form("booking_form"):
-    st.subheader("⿡ Booking Details")
+    st.subheader("📋 Booking Details")
     
     col1, col2, col3 = st.columns(3)
     
@@ -56,7 +56,7 @@ with st.form("booking_form"):
 
     st.divider()
     
-    st.subheader("⿢ Guest & Stay Details")
+    st.subheader("👥 Guest & Stay Details")
     
     col1, col2, col3, col4 = st.columns(4)
     
@@ -71,7 +71,7 @@ with st.form("booking_form"):
 
     st.divider()
 
-    st.subheader("⿣ Preferences")
+    st.subheader("📝Preferences")
     
     col1, col2, col3 = st.columns(3)
     
